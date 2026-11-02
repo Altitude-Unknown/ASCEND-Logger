@@ -9,8 +9,8 @@ Connected board on 2026-10-26: `/dev/cu.usbmodem1201`, detected as
 SD CS D10/PA18, MOSI PB10, SCK PB11, MISO PA12.
 
 ```sh
-arduino-cli compile --fqbn AltitudeUnknown:samd:altitude_yellowstone_m0 ASCEND/ASCEND_Logger_Diagnostic
-arduino-cli upload -p /dev/cu.usbmodem1201 --fqbn AltitudeUnknown:samd:altitude_yellowstone_m0 ASCEND/ASCEND_Logger_Diagnostic
+arduino-cli compile --fqbn AltitudeUnknown:samd:altitude_yellowstone_m0 ASCEND_Logger_Diagnostic
+arduino-cli upload -p /dev/cu.usbmodem1201 --fqbn AltitudeUnknown:samd:altitude_yellowstone_m0 ASCEND_Logger_Diagnostic
 ```
 
 Open USB serial at 115200 to start. The diagnostic scans I2C, checks the

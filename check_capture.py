@@ -1,4 +1,4 @@
-"""Validate real UAS USB CSV output: python3 ASCEND/check_capture.py capture.txt."""
+"""Validate real UAS USB CSV output: python3 check_capture.py bench-captures/bench-capture.txt."""
 import csv
 from pathlib import Path
 import sys
